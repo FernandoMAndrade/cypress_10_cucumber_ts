@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+<<<<<<< HEAD
     /* Visit https://aka.ms/tsconfig to read more about this file */
 
     /* Projects */
@@ -98,6 +99,15 @@
 
     /* Completeness */
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
+=======
+    "target": "es2016",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "lib": ["dom","es6"],
+    "module": "commonjs",
+    "types": ["cypress"],
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+>>>>>>> 7a2e0ff (Update cypress template)
     "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
   }
 }

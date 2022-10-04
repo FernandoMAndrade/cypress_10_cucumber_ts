@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // ***********************************************************
 // This example support/e2e.ts is processed and
 // loaded automatically before your test files.
@@ -18,3 +19,6 @@ import './commands'
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+=======
+import './commands'
+>>>>>>> 7a2e0ff (Update cypress template)

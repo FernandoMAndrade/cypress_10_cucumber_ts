@@ -1,0 +1,9 @@
+{
+  "dev": {
+    "validusers": [
+      "userA": {
+        "login": "abc@123.com",
+        "pwd": "safepassword"
+      }]
+  }
+}

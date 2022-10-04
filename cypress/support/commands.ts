@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /// <reference types="cypress" />
 // ***********************************************
 // This example commands.ts shows you how to
@@ -35,3 +36,14 @@
 //     }
 //   }
 // }
+=======
+///<reference types="cypress" />
+
+Cypress.Commands.add('validateResponseStatus', (response:object, status:number) => {
+    return expect(response.status).to.eql(status)
+})
+
+Cypress.Commands.add('validateValueInResponse', (key:object, value:string|number|boolean) => {
+    return expect(key).to.eql(value)
+})
+>>>>>>> 7a2e0ff (Update cypress template)
