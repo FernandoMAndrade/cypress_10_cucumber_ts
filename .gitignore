@@ -2,3 +2,5 @@
 package-lock.json
 ./cypress/downloads
 ./cypress/reports
+.DS_store
+.idea
